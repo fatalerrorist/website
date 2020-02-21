@@ -1,1 +1,1 @@
-# Fatalerrorist aka Balicien's Resume
+# Fatalerrorist also known as Balicien's Resume
