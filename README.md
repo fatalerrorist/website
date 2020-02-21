@@ -1,2 +1,1 @@
-# gdimpls-resume-example
-Resume Example built in GDI Minneapolis HTML &amp; CSS 301
+# Fatalerrorist aka Balicien's Resume
