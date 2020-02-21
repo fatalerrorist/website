@@ -1,0 +1,220 @@
+body {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	line-height: .5em;
+}
+
+h1 a {
+	color: #fff;
+}
+
+h2 {
+	font-size: 2.5em;
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+}
+
+h3 {
+	font-size: 2em;
+	padding: 10px 0;
+}
+
+h4 {
+	font-size: 1.75em;
+	padding: 10px 0;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.flex {
+	display: flex;
+}
+
+.align-middle {
+	align-items: center;
+}
+
+header {
+	padding-top: 30px;
+	height: 60px;
+	background: #3B636C;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	opacity: 0.99;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+nav {
+	float: right;
+	width: 70%;
+}
+
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+nav li:last-child {
+	padding-right: 0;
+}
+
+nav li a {
+	color: #fff;
+}
+
+nav li a:hover {
+	color: #C8025A;
+}
+
+.hero {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	text-align: center;
+	color: #fff;
+}
+
+.button {
+	padding: 15px;
+	display: inline-block;
+	background-color: #3C063A;
+	color: #fff;
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+section {
+	padding: 150px 0;
+}
+
+#about {
+	background: #C8025A;
+	color: #fff;
+}
+
+#about .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bio, .profile {
+	flex: 1;
+}
+
+.profile {
+	text-align: center;
+	margin-left: 70px;
+}
+
+#education {
+	background: #990444;	
+}
+
+#education .container {
+	justify-content: space-around;
+}
+
+.education-item {
+	color: #fff;
+	padding-right: 50px;
+}
+
+.education-item:last-child {
+	padding-right: 0;
+}
+
+#experience {
+	background: #570470;
+	color: #fff;	
+}
+
+.company-details {
+	flex: 1;
+}
+
+.job-details {
+	flex: 3;
+}
+
+.experience-item {
+
+}
+
+#portfolio {
+	background: #3C063A;	
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item figure {
+	position: relative;
+}
+
+.portfolio-item figure figcaption {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}
+
+.portfolio-item figure figcaption h3 {
+	text-align: center
+}
+
+#contact {
+	background: #2E0115;
+	padding: 150px 0;	
+}
+
+.social {
+	color: #fff;
+}
+
+.social li {
+	/*display: inline-block;*/
+	padding-right: 25px;
+}
+
+.social li:last-child {
+	padding-right: 0;
+}
+
+.social a {
+	color: #fff;
+	font-size: 2em;
+}
+
+
